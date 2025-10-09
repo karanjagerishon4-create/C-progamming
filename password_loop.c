@@ -18,9 +18,10 @@ int main() {
     do {
         printf("Enter password: ");
         scanf("%s", password);
-    } while (strcmp(password, "3291") != 0);
+    } while (strcmp(password, "0000") != 0);
 
     printf("Access Granted\n");
 
     return 0;
+
 }
